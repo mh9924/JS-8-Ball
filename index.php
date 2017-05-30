@@ -1,23 +1,8 @@
-<?php
-session_start();
-if(isset($_SESSION['username'])) {
-?>
 <!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="refresh" content="8">
-<!--<script type="text/javascript">
-setTimeout(function(){
-   window.location.reload('1');
-}, 8000);
-</script>
-<script type="text/javascript">
-setTimeout(function() { 
-  window.location=window.location;}
-  ,8000);
-</script>  
--->
 <title>PHP 8-Ball Script</title>
 <style>
 body {
@@ -113,8 +98,3 @@ if($randnum == "20") {
 ?>
 </body>
 </html>
-<?php
-} else {
-	echo "<script>location=\"http://henrys1teg4mes.tk/login.php\";</script>";
-	}
-?>
