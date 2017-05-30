@@ -1,2 +1,5 @@
 # JS-8-Ball
-Basic HTML5 8-ball.
+This is a basic HTML5 8-ball.
+Included are the following:
+PHP Version: "index.php"
+And JavaScript Version: "index.html"
